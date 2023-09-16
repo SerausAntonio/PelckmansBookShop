@@ -47,6 +47,6 @@ public class Pelckmans {
     for(WebElement menu: menulist){
         System.out.println(menu.getText());
     }
-        System.out.println(System.getProperty("user.dir"));
+
     }
 }
