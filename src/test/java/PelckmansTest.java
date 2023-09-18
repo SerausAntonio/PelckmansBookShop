@@ -9,15 +9,15 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 import java.util.Properties;
 
-public class Pelckmans {
+public class PelckmansTest {
 
-    WebDriver driver;
+    private static WebDriver driver;
+
     @BeforeMethod
     public void setUp() throws IOException {
         Properties prop = new Properties();

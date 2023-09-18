@@ -1,37 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-18T18:57:40 CEST" name="Surefire suite" finished-at="2023-09-18T18:57:44 CEST" duration-ms="4488">
+  <suite started-at="2023-09-18T19:06:23 CEST" name="Surefire suite" finished-at="2023-09-18T19:06:31 CEST" duration-ms="7133">
     <groups>
     </groups>
-    <test started-at="2023-09-18T18:57:40 CEST" name="Surefire test" finished-at="2023-09-18T18:57:44 CEST" duration-ms="4488">
+    <test started-at="2023-09-18T19:06:23 CEST" name="Surefire test" finished-at="2023-09-18T19:06:31 CEST" duration-ms="7133">
       <class name="LoginAlertTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginAlertTest@3901d134]" started-at="2023-09-18T18:57:40 CEST" name="setUp" finished-at="2023-09-18T18:57:42 CEST" duration-ms="2376" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginAlertTest@4c1d9d4b]" started-at="2023-09-18T19:06:23 CEST" name="setUp" finished-at="2023-09-18T19:06:26 CEST" duration-ms="2460" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginWithRightCredentialsTest()[pri:0, instance:LoginAlertTest@3901d134]" started-at="2023-09-18T18:57:42 CEST" name="loginWithRightCredentialsTest" finished-at="2023-09-18T18:57:42 CEST" duration-ms="221" status="PASS">
+        <test-method signature="loginWithRightCredentialsTest()[pri:0, instance:LoginAlertTest@4c1d9d4b]" started-at="2023-09-18T19:06:26 CEST" name="loginWithRightCredentialsTest" finished-at="2023-09-18T19:06:26 CEST" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithRightCredentialsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginAlertTest@3901d134]" started-at="2023-09-18T18:57:42 CEST" name="tearDown" finished-at="2023-09-18T18:57:43 CEST" duration-ms="135" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginAlertTest@4c1d9d4b]" started-at="2023-09-18T19:06:26 CEST" name="tearDown" finished-at="2023-09-18T19:06:26 CEST" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginAlertTest@3901d134]" started-at="2023-09-18T18:57:43 CEST" name="setUp" finished-at="2023-09-18T18:57:44 CEST" duration-ms="1415" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:LoginAlertTest@4c1d9d4b]" started-at="2023-09-18T19:06:26 CEST" name="setUp" finished-at="2023-09-18T19:06:28 CEST" duration-ms="1441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginWithWrongCredentialsTest()[pri:0, instance:LoginAlertTest@3901d134]" started-at="2023-09-18T18:57:44 CEST" name="loginWithWrongCredentialsTest" finished-at="2023-09-18T18:57:44 CEST" duration-ms="202" status="PASS">
+        <test-method signature="loginWithWrongCredentialsTest()[pri:0, instance:LoginAlertTest@4c1d9d4b]" started-at="2023-09-18T19:06:28 CEST" name="loginWithWrongCredentialsTest" finished-at="2023-09-18T19:06:28 CEST" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithWrongCredentialsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginAlertTest@3901d134]" started-at="2023-09-18T18:57:44 CEST" name="tearDown" finished-at="2023-09-18T18:57:44 CEST" duration-ms="113" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:LoginAlertTest@4c1d9d4b]" started-at="2023-09-18T19:06:28 CEST" name="tearDown" finished-at="2023-09-18T19:06:28 CEST" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- LoginAlertTest -->
+      <class name="PelckmansTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:PelckmansTest@5e316c74]" started-at="2023-09-18T19:06:28 CEST" name="setUp" finished-at="2023-09-18T19:06:29 CEST" duration-ms="1094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="menuItemsTest()[pri:0, instance:PelckmansTest@5e316c74]" started-at="2023-09-18T19:06:29 CEST" name="menuItemsTest" finished-at="2023-09-18T19:06:30 CEST" duration-ms="1315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuItemsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:PelckmansTest@5e316c74]" started-at="2023-09-18T19:06:30 CEST" name="tearDown" finished-at="2023-09-18T19:06:31 CEST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- PelckmansTest -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
 </testng-results>
