@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class LoginAlert {
+public class LoginAlertTest {
     private static WebDriver driver;
     private WebDriverWait wait;
     @BeforeMethod
